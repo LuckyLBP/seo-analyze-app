@@ -54,12 +54,7 @@ export default function IntroScreen({ onGetStarted }: IntroScreenProps) {
             />
             <span className="text-lg md:text-xl font-bold">Effektiv Media</span>
           </div>
-          <nav className="hidden md:flex space-x-6 lg:space-x-8 text-xs lg:text-sm text-gray-300">
-            <a href="#" className="hover:text-white transition-colors">Hem</a>
-            <a href="#" className="hover:text-white transition-colors">Om oss</a>
-            <a href="#" className="hover:text-white transition-colors">Tjänster</a>
-            <a href="#" className="hover:text-white transition-colors">Kontakt</a>
-          </nav>
+          
         </div>
       </header>
 
