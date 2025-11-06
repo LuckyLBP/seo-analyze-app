@@ -1,23 +1,73 @@
-# SEO Analyze - Effektiv Media
+# SEO Analys Verktyg - Effektiv Media
 
-En modern React-applikation för SEO-analys av webbplatser. Denna landingsida är designad för att generera leads genom att erbjuda kostnadsfria SEO-rapporter.
+🚀 **Live Demo:** [analys.effektivmedia.nu](https://analys.effektivmedia.nu)
 
-## Funktioner
+En professionell, SEO-optimerad React-applikation för omfattande webbplatsanalys. Detta verktyg kombinerar Google PageSpeed Insights med AI-driven analys för att leverera detaljerade SEO-rapporter och leadgenerering.
 
-- **Responsiv landingsida** med modern design
-- **URL-validering** för webbplatser
-- **Animerad laddningsskärm** med steg-för-steg progress
-- **Enkel kontaktformulär** för leadgenerering
-- **Detaljerad SEO-rapport** med visuella metriker
-- **Mobilvänlig design** med Tailwind CSS
-- **Smooth animationer** med Framer Motion
+## 🎯 Funktioner
 
-## Teknisk stack
+### ⚡ Core Features
+- **Gratis SEO-analys** med Google PageSpeed Insights API
+- **AI-förbättrade rekommendationer** via Deepseek API
+- **Realtidsanalys** av Core Web Vitals
+- **Responsiv design** optimerad för alla enheter
+- **Leadgenerering** genom kontaktformulär
+- **Professionella rapporter** med actionable insights
 
-- **React 19** med TypeScript
-- **Vite** för snabb utveckling
-- **Tailwind CSS v4** för styling
-- **Framer Motion** för animationer
+### 🔧 Tekniska Features
+- **Semantic HTML5** för optimal SEO
+- **Structured Data** (JSON-LD) för rich snippets
+- **Open Graph** och Twitter Cards
+- **Progressive Web App** (PWA) capabilities
+- **Performance optimering** med lazy loading
+- **Accessibility** (WCAG 2.1 AA compliant)
+
+## 🛠 Teknisk Stack
+
+### Frontend
+- **React 19** med TypeScript för type safety
+- **Vite** för blixtsnabb utveckling och build
+- **Tailwind CSS v4** för utility-first styling
+- **Framer Motion** för smooth animationer
+
+### SEO & Performance
+- **Structured Data** för enhanced search results
+- **Meta tags optimization** för social sharing
+- **Sitemap.xml** och robots.txt
+- **Performance monitoring** och Core Web Vitals
+- **Security headers** för förbättrad säkerhet
+
+### APIs & Services
+- **Google PageSpeed Insights API** för prestandaanalys
+- **Deepseek AI API** för intelligenta rekommendationer
+- **Staged loading** för optimal användarupplevelse
+
+## 🚀 SEO Optimeringar
+
+### Technical SEO
+- ✅ **Semantic HTML5** struktur
+- ✅ **Meta tags** för alla sidor
+- ✅ **Open Graph** och Twitter Cards
+- ✅ **Structured Data** (JSON-LD)
+- ✅ **Canonical URLs**
+- ✅ **XML Sitemap**
+- ✅ **Robots.txt**
+- ✅ **Security headers**
+
+### Performance SEO
+- ✅ **Core Web Vitals** optimization
+- ✅ **Image optimization** med lazy loading
+- ✅ **CSS/JS minification**
+- ✅ **GZIP compression**
+- ✅ **Browser caching**
+- ✅ **CDN-ready**
+
+### Content SEO
+- ✅ **Swedish language** targeting
+- ✅ **Keyword optimization**
+- ✅ **Internal linking**
+- ✅ **Content hierarchy**
+- ✅ **Alt text** för alla bilder
 - **Lucide React** för ikoner
 - **Axios** för API-anrop
 

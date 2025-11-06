@@ -111,31 +111,62 @@ function App() {
 
   return (
     <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100">
-      {currentStep === 'intro' && (
-        <IntroScreen onGetStarted={handleGetStarted} />
-      )}
-      {currentStep === 'urlInput' && (
-        <UrlInputScreen onUrlSubmit={handleUrlSubmit} onBack={handleBackToIntro} />
-      )}
-      {currentStep === 'loading' && (
-        <LoadingScreen 
-          websiteUrl={websiteUrl} 
-          error={error} 
-          onRetry={() => handleUrlSubmit(websiteUrl)}
-          onBack={() => setCurrentStep('urlInput')}
-        />
-      )}
-      {currentStep === 'contact' && (
-        <ContactForm onSubmit={handleContactSubmit} websiteUrl={websiteUrl} />
-      )}
-      {currentStep === 'report' && analysisData && userData && (
-        <SEOReport 
-          analysisData={analysisData} 
-          userData={userData} 
-          onStartOver={handleStartOver}
-          isAiLoading={isAiLoading}
-        />
-      )}
+      {/* Semantic HTML structure for SEO */}
+      <header style={{ position: 'absolute', left: '-9999px' }}>
+        <h1>Gratis SEO Analys | Effektiv Media</h1>
+        <nav aria-label="Huvudnavigation">
+          <ul>
+            <li><a href="https://effektivmedia.nu/">Hem</a></li>
+            <li><a href="https://effektivmedia.nu/tjanster/">Tjänster</a></li>
+            <li><a href="https://effektivmedia.nu/kontakt/">Kontakt</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main role="main">
+        {currentStep === 'intro' && (
+          <section aria-labelledby="intro-heading">
+            <IntroScreen onGetStarted={handleGetStarted} />
+          </section>
+        )}
+        {currentStep === 'urlInput' && (
+          <section aria-labelledby="url-input-heading">
+            <UrlInputScreen onUrlSubmit={handleUrlSubmit} onBack={handleBackToIntro} />
+          </section>
+        )}
+        {currentStep === 'loading' && (
+          <section aria-labelledby="loading-heading" aria-live="polite">
+            <LoadingScreen 
+              websiteUrl={websiteUrl} 
+              error={error} 
+              onRetry={() => handleUrlSubmit(websiteUrl)}
+              onBack={() => setCurrentStep('urlInput')}
+            />
+          </section>
+        )}
+        {currentStep === 'contact' && (
+          <section aria-labelledby="contact-heading">
+            <ContactForm onSubmit={handleContactSubmit} websiteUrl={websiteUrl} />
+          </section>
+        )}
+        {currentStep === 'report' && analysisData && userData && (
+          <section aria-labelledby="report-heading">
+            <SEOReport 
+              analysisData={analysisData} 
+              userData={userData} 
+              onStartOver={handleStartOver}
+              isAiLoading={isAiLoading}
+            />
+          </section>
+        )}
+      </main>
+
+      <footer style={{ position: 'absolute', left: '-9999px' }}>
+        <p>&copy; 2025 Effektiv Media. Alla rättigheter förbehållna.</p>
+        <address>
+          <a href="mailto:info@effektivmedia.nu">info@effektivmedia.nu</a>
+        </address>
+      </footer>
     </div>
   )
 }

@@ -1,0 +1,41 @@
+/* Critical CSS - Inline this in index.html for best performance */
+
+/* Reset and base styles */
+*,*::before,*::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
+html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}
+body{margin:0;line-height:inherit;background-color:#000;color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+/* Critical layout */
+.min-h-screen{min-height:100vh}
+.flex{display:flex}
+.flex-col{flex-direction:column}
+.items-center{align-items:center}
+.justify-center{justify-content:center}
+.text-center{text-align:center}
+.relative{position:relative}
+.absolute{position:absolute}
+.inset-0{top:0;right:0;bottom:0;left:0}
+
+/* Critical typography */
+.text-2xl{font-size:1.5rem;line-height:2rem}
+.text-3xl{font-size:1.875rem;line-height:2.25rem}
+.font-bold{font-weight:700}
+.text-white{color:#fff}
+.text-gray-300{color:#d1d5db}
+
+/* Critical spacing */
+.p-4{padding:1rem}
+.p-6{padding:1.5rem}
+.mb-4{margin-bottom:1rem}
+.mb-6{margin-bottom:1.5rem}
+.mb-8{margin-bottom:2rem}
+
+/* Critical buttons */
+.bg-blue-600{background-color:#2563eb}
+.hover\:bg-blue-700:hover{background-color:#1d4ed8}
+.px-6{padding-left:1.5rem;padding-right:1.5rem}
+.py-3{padding-top:0.75rem;padding-bottom:0.75rem}
+.rounded-xl{border-radius:0.75rem}
+
+/* Performance optimizations */
+.gpu-accelerated{transform:translateZ(0);will-change:transform}

@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://analys.effektivmedia.nu/sitemap.xml
+
+# Crawl delay (optional, 1 second)
+Crawl-delay: 1
+
+# Disallow nothing - we want everything indexed
+# Allow search engines to crawl all content
+
+# Host specification
+Host: analys.effektivmedia.nu

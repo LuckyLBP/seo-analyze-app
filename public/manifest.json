@@ -1,0 +1,35 @@
+{
+  "name": "SEO Analys - Effektiv Media",
+  "short_name": "SEO Analys",
+  "description": "Gratis professionell SEO-analys av din webbplats",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e293b",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "sv",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/emLogo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/emLogo.png",
+      "sizes": "512x512", 
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/emLogo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    }
+  ]
+}
